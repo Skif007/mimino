@@ -70,7 +70,7 @@ body {
 
 .modal__box {
   position: relative;
-  max-width: 1440px;
+  max-width: 768px;
   padding: 27px 32px;
   z-index: 1;
   margin: 30px 15px;
@@ -154,6 +154,17 @@ body {
   top: 0;
   right: 8px;
 }
+.modal_links {
+  border-radius: 50%;
+}
+.menu_links :hover,
+.menu_links :focus {
+  background-color: #f8f2f2;
+}
+.modal_links :hover,
+.modal_links :focus {
+}
+
 .menu_list {
   padding-top: 30px;
   padding-right: 32px;
@@ -173,7 +184,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 100px;
+  line-height: 40px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #f7f7f7;
